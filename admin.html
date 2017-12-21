@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Bare - Start Bootstrap Template</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <style>
+        body {
+            padding-top: 54px;
+             background-image:url('images/bg.jpg');
+background-repeat:no-repeat;
+-webkit-background-size:cover;
+-moz-background-size:cover;
+-o-background-size:cover;
+background-size:cover;
+background-position:center;
+        }
+        .white{
+            color:azure;
+        }
+        @media (max-width: 992px) {
+            body {
+                padding-top: 56px;
+                padding-bottom: 50px;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+
+    <!-- Page Content -->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="text-center white">Easy-Bill</h1>
+                <p class="lead text-center white">Electricity consumption billing system</p>
+                <div class="row">
+                    <div class="col-lg-6 offset-lg-3">
+                        <div class="card">
+                            <div class="card-header text-center">
+                                Invoice
+                            </div>
+                            <div class="card-body">
+
+                                <form>
+                                    <div class="form-group row">
+                                        <label for="housenumber" class="col-sm-4 col-form-label">House Number</label>
+                                        <div class="col-sm-8">
+                                            <input type="text" class="form-control" id="housenumber" placeholder="House Number">
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label for="name" class="col-sm-4 col-form-label">Owner Name</label>
+                                        <div class="col-sm-8">
+                                            <input type="text" class="form-control" id="name" placeholder="Owner Name">
+                                        </div>
+                                    </div>
+                                    <hr class="mt-2">
+                                    <div class="text-center">
+                                        Electricity Consumption Details
+                                    </div>
+                                    <hr>
+                                    <div class="pr-5 pl-5 mt-3">
+
+                                        <div class="form-group row">
+                                            <label for="inread" class="col-sm-5 col-form-label">Initial Reading</label>
+                                            <div class="col-sm-7">
+                                                <input type="text" class="form-control" id="inread" placeholder="in kWh">
+                                            </div>
+                                        </div>
+                                        <div class="form-group row">
+                                            <label for="eread" class="col-sm-5 col-form-label">End Reading</label>
+                                            <div class="col-sm-7">
+                                                <input type="text" class="form-control" id="eread" placeholder="in kWh">
+                                            </div>
+                                        </div>
+                                        <div class="form-group row">
+                                            <label for="tmc" class="col-sm-5 col-form-label">Total Consumption</label>
+                                            <div class="col-sm-7">
+                                                <input type="text" class="form-control" id="tmc" placeholder="in kWh">
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <hr>
+                                    <div class="form-group row">
+                                        <label for="cost" class="col-sm-4 col-form-label">Current Cost/Unit</label>
+                                        <div class="col-sm-8">
+                                            <input type="text" class="form-control" id="cost" placeholder="Current Cost/Unit">
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label for="Bill Amount" class="col-sm-4 col-form-label">Bill Amount</label>
+                                        <div class="col-sm-8">
+                                            <input type="text" class="form-control" id="cost" placeholder="in Rupees">
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group row mt-4">
+                                        <div class="col-sm-10">
+                                            <button type="submit" class="btn btn-success">Update</button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bootstrap core JavaScript -->
+
+            <script src="jquery/jquery.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
